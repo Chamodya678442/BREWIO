@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BREWIO' — Menu</title>
+
+  
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+
+<header class="topbar">
+  <div class="container inner">
+    <div class="logo">BREWIO'</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!--TILTLE-->
+<section class="center-title">
+  <div class="container">
+    <h2 class="h2">Our Curated Menu</h2>
+    <div class="underline"></div>
+
+    <!-- FILTER BUTTONS -->
+    <div class="pills">
+      <button class="pill active" data-filter="all">All</button>
+      <button class="pill" data-filter="coffee">Coffee</button>
+      <button class="pill" data-filter="tea">Tea</button>
+      <button class="pill" data-filter="bakery">Bakery</button>
+      <button class="pill" data-filter="seasonal">Seasonal</button>
+    </div>
+  </div>
+</section>
+
+<!--FEATURED ITEM -->
+<section class="container wide">
+<!--MENU CARDS-->
+  <div class="cards">
+
+    <!--NEW COFFEE ITEMS-->
+    <article class="card" data-category="coffee">
+      <img src="assets/img/Espresso.png" alt="Espresso">
+      <div class="card-body">
+        <div class="card-top">
+          <h3 class="card-title">Espresso</h3>
+          <div class="price">Rs. 850</div>
+        </div>
+        <p class="desc">Intense and bold single shot with rich crema.</p>
+        <a class="order" href="#">ORDER NOW</a>
+      </div>
+    </article>
+
+    <article class="card" data-category="coffee">
+      <img src="assets/img/Cappuccino.png" alt="Cappuccino">
+      <div class="card-body">
+        <div class="card-top">
+          <h3 class="card-title">Cappuccino</h3>
+          <div class="price">Rs. 1,150</div>
+        </div>
+        <p class="desc">Balanced blend of espresso depth and smooth coffee.</p>
+        <a class="order" href="#">ORDER NOW</a>
+      </div>
+    </article>
+
+    <article class="card" data-category="coffee">
+      <img src="assets/img/mocha.png" alt="Mocha">
+      <div class="card-body">
+        <div class="card-top">
+          <h3 class="card-title">Mocha</h3>
+          <div class="price">Rs. 1,450</div>
+        </div>
+        <p class="desc">Espresso combined with chocolate and steamed milk.</p>
+        <a class="order" href="#">ORDER NOW</a>
+      </div>
+    </article>
+
+    <article class="card" data-category="coffee">
+      <img src="assets/img/Americano.png" alt="Americano">
+      <div class="card-body">
+        <div class="card-top">
+          <h3 class="card-title">Americano</h3>
+          <div class="price">Rs. 1,050</div>
+        </div>
+        <p class="desc">Espresso topped with hot water for a clean finish.</p>
+        <a class="order" href="#">ORDER NOW</a>
+      </div>
+    </article>
+    <!-- ===== /NEW COFFEE ITEMS ===== -->
+
+    <!-- ===== TEA ===== -->
+    <article class="card" data-category="tea">
+      <img src="assets/img/latte.png" alt="Charcoal Matcha Latte">
+      <div class="card-body">
+        <div class="card-top">
+          <h3 class="card-title">Charcoal Matcha Latte</h3>
+          <div class="price">Rs. 1,875</div>
+        </div>
+        <p class="desc">Ceremonial grade matcha with activated charcoal.</p>
+        <a class="order" href="#">ORDER NOW</a>
+      </div>
+    </article>
+
+    <!-- ===== BAKERY ===== -->
+    <article class="card" data-category="bakery">
+      <img src="assets/img/bun.png" alt="Almond Croissant">
+      <div class="card-body">
+        <div class="card-top">
+          <h3 class="card-title">Almond Croissant</h3>
+          <div class="price">Rs. 1,485</div>
+        </div>
+        <p class="desc">Double baked with frangipane and toasted almonds.</p>
+        <a class="order" href="#">ORDER NOW</a>
+      </div>
+    </article>
+
+    <!-- ===== SEASONAL ===== -->
+    <article class="card" data-category="seasonal">
+      <img src="assets/img/Pumpkin.png" alt="Spiced Pumpkin Nitro">
+      <div class="card-body">
+        <div class="card-top">
+          <h3 class="card-title">Spiced Pumpkin Nitro</h3>
+          <div class="price">Rs. 1,950</div>
+        </div>
+        <p class="desc">Nitro cold brew infused with house-made spices.</p>
+        <a class="order" href="#">ORDER NOW</a>
+      </div>
+    </article>
+
+    <!-- ===== BAKERY ===== -->
+    <article class="card" data-category="bakery">
+      <img src="assets/img/tart.png" alt="Salted Caramel Tart">
+      <div class="card-body">
+        <div class="card-top">
+          <h3 class="card-title">Salted Caramel Tart</h3>
+          <div class="price">Rs. 1,650</div>
+        </div>
+        <p class="desc">Dark chocolate ganache with maldon sea salt.</p>
+        <a class="order" href="#">ORDER NOW</a>
+      </div>
+    </article>
+
+  </div>
+
+  </div> <!-- end .cards -->
+
+<!-- ================= SINGLE ORIGIN (MOVED TO BOTTOM + TABLE ADDED) ================= -->
+<div class="single-origin-box">
+  <div class="single-origin-head">
+    <h3>Single Origin Pour Over</h3>
+    <p class="sub">
+      A rotating selection of premium beans brewed with precision to highlight origin character and clarity.
+    </p>
+  </div>
+
+  <!-- NEW: table inside the box -->
+  <div class="origin-table-wrap">
+    <table class="origin-table">
+      <thead>
+        <tr>
+          <th>Origin</th>
+          <th>Tasting Notes</th>
+          <th style="text-align:right;">Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Espresso</strong></td>
+          <td>Bright citrus, floral aromatics, honeyed sweetness, clean finish</td>
+          <td style="text-align:right;">Rs. 850</td>
+        </tr>
+        <tr>
+          <td><strong>Cappuccino</strong></td>
+          <td>Caramelized sugar, toasted nuts, creamy milk, subtle cocoa</td>
+          <td style="text-align:right;">Rs. 1,150</td>
+        </tr>
+        <tr>
+          <td><strong>Mocha</strong></td>
+          <td>Rich dark chocolate, espresso bitterness, smooth cocoa finish</td>
+          <td style="text-align:right;">Rs. 1,450</td>
+        </tr>
+        <tr>
+          <td><strong>Americano</strong></td>
+          <td>Smooth cocoa, mild citrus, toasted grain, clean and balanced body</td>
+          <td style="text-align:right;">Rs. 1,050</td>
+        </tr>
+        <tr>
+          <td><strong>Charcoal Matcha Latte</strong></td>
+          <td>Earthy matcha, subtle bitterness, creamy milk, light vanilla sweetness</td>
+          <td style="text-align:right;">Rs. 1,875</td>
+        </tr>
+        <tr>
+          <td><strong>Almond Croissant</strong></td>
+          <td>Buttery pastry, roasted almond, light sweetness, crisp flaky layers</td>
+          <td style="text-align:right;">Rs. 1,485</td>
+        </tr>
+        <tr>
+          <td><strong>Spiced Pumpkin Nitro</strong></td>
+          <td>Warm pumpkin spice, cinnamon, nutmeg, creamy mouthfeel with gentle sweetness</td>
+          <td style="text-align:right;">Rs. 1,950</td>
+        </tr>
+         <tr>
+          <td><strong>Salted Caramel Tart
+          </strong></td>
+          <td>Deep caramel richness, sea salt balance, buttery crust, smooth finish</td>
+          <td style="text-align:right;">Rs. 1,650</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!--SINGLE ORIGIN-->
+</section>
+
+</main>
+
+<!--FOOTER-->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="brand">BREWIO'</div>
+      <p>
+        Cultivating community through the art of fine coffee and
+        artisanal craftsmanship. Sustainably sourced, expertly roasted.
+      </p>
+    </div>
+
+ 
+    <div>
+      <h4>Location</h4>
+      <p class="small">441, HighLevel Road, Delkanda, Nugegoda. </p>
+      <br>
+      <h4>Contact NO.</h4>
+      <p class="small">0112 444 333</p>
+    </div>
+
+    <div>
+      <h4>Hours</h4>
+      <p class="small">Mon – Fri <span style="float:right;">7:00 AM – 7:00 PM</span></p>
+      <p class="small">Sat – Sun <span style="float:right;">8:00 AM – 8:00 PM</span></p>
+    </div>
+
+    <div>
+      <h4>Newsletter</h4>
+      <p class="small">Join our brew circle for exclusive updates.</p>
+      <div class="news">
+        <input id="emailInput" type="email" placeholder="Email address">
+        <button id="joinBtn">Join</button>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Main JS -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
+
