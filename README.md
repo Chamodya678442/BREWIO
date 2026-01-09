@@ -37,25 +37,6 @@ Careers
 
 Contact
 
-📂 Project Structure
-Coffee_Shop/
-│
-├── index.html
-├── about.html
-├── menu.html
-├── careers.html
-├── contact.html
-│
-├── assets/
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── main.js
-│   └── img/
-│       └── (image assets)
-│
-└── .gitignore
-
 ✨ Features
 
 Responsive layout
